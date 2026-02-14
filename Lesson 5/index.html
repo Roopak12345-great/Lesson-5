@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desserts Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="main">
+        <h1>Delicious Desserts</h1>
+        
+        <div class="container">
+            <!-- Category 1 -->
+            <div class="category" id="category1">
+                <h2>Ice Cream</h2>
+                <button id="vanilla">Vanilla</button>
+                <button id="chocolate">Chocolate</button>
+                <button id="strawberry">Strawberry</button>
+            </div>
+            
+            <!-- Category 2 -->
+            <div class="category" id="category2">
+                <h2>Sweets</h2>
+                <button id="pure">Pure</button>
+                <button id="syrup">Syrup</button>
+                <button id="sugar">Sugar</button>
+            </div>
+            
+            <!-- Category 3 -->
+            <div class="category" id="category3">
+                <h2>Hot Drinks</h2>
+                <button id="coffee">Coffee</button>
+                <button id="tea">Tea</button>
+                <button id="fruit">Fruit</button>
+            </div>
+        </div>
+        
+        <!-- Content area for iframe -->
+        <div id="content">
+            <iframe class="info" src="text.txt" width="80%" height="400px"></iframe>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
